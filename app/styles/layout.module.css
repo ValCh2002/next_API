@@ -1,0 +1,29 @@
+
+.nav {
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 8px;
+  font-size: 15px;
+  background: black;
+  margin-bottom: 20px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  transition: 0.4s;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link.active {
+  font-size: 25px;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+}
